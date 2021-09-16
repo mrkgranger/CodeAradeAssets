@@ -1,3 +1,5 @@
+let gameStart: Sprite = null
 let Swatter = sprites.create(assets.image`Fly Swatter`, SpriteKind.Player)
+let fly = sprites.create(assets.image`Fly_green`, SpriteKind.Enemy)
 scene.setBackgroundColor(1)
-Swatter.say("Swat those flys!")
+gameStart.say("Swat those flys!")
